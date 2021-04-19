@@ -53,10 +53,6 @@
 	border-bottom: 1px solid #000;
 }
 
-/* .links li:hover {
-	background: #323c4e;
-} */
-
 .links li {
 	list-style: none;
 }
@@ -207,6 +203,7 @@ footer {
 		flex-direction: row;
 		position: unset;
 		width: auto;
+		margin-right: 50px;
 	}
 
 	.links > li:hover > a {
@@ -215,7 +212,7 @@ footer {
 
 	.links li {
 		display: block;
-		width: 6rem;
+		width: 7rem;
 		padding: 10px;
 		text-align: center;
 	}
@@ -239,5 +236,9 @@ footer {
 	.container {
 		max-width: 1190px;
 		margin: 0 auto;
+	}
+
+	.links {
+		margin-right: 100px;
 	}
 }
